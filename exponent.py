@@ -1,6 +1,14 @@
 """
 File: exponent.py
-Author: Your Name
-Date: Creation or modification date in YYYY-MM-DD format
-Description: A brief explanation of what this program does.
+Author: Jayden Cho
+Date: 2024-02-22 
+Description: creating and calculating exponent using given base and power
 """
+
+Base=float(input("Enter Base: "))
+Power=float(input("Enter Power: "))
+
+exponent=Base ** Power
+rounded_exponent=round(exponent, 2)
+
+print("Result: a^b is " + str(exponent))
